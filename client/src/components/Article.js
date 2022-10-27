@@ -9,7 +9,7 @@ const initialState = {
   error: null,
   status: "pending",
 };
-
+ 
 function Article() {
   const [{ article, error, status }, setState] = useState(initialState);
   const { id } = useParams();
